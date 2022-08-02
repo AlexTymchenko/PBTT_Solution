@@ -3,7 +3,6 @@ import os
 import requests
 from moviepy.editor import VideoFileClip
 
-num = int
 BASE_DIR = os.path.expanduser('~')
 video_name = 'DownloadedTikTok.mp4'
 filepath = os.path.join(BASE_DIR, video_name)
